@@ -180,11 +180,18 @@ pre-wrap
 .row-2-col-1{
     width: 30vw;
 }
+.row-2-2{
+    gap: 0.3rem;
+    display: flex;
+    /* flex-direction: column; */
+   
+}
 
 .row-2-col-2{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .row-2-col-2>button{
@@ -201,6 +208,7 @@ pre-wrap
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .row-2-col-3>a{
@@ -282,9 +290,12 @@ element.style {
 .row-2-1{
     width: 100%;
     margin-bottom: 12px;
+    flex:2;
 }
 .row-2-2{
     gap: 0.3rem;
+    display: flex;
+   flex-direction: column;
 }
 .row-2-col-1{
     width: 100%;
