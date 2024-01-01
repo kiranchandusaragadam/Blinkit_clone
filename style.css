@@ -63,13 +63,6 @@
     margin: 10px;
 }
 
-/* white-space */
-/* 
-normal
-nowrap 
-pre
-pre-wrap
-*/
 
 ::-webkit-scrollbar{
     display: none;
